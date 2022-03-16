@@ -1,0 +1,16 @@
+
+<div class="conteiner">
+   <h1 style="color: blue">Lista de colaboradores</h1>
+   <div class="colaboradores" *ngFor="let colaboradores of colaboradores">
+    <h3>Informações do cliente</h3>
+    <h4>id: {{colaboradores.id}}</h4>
+    <h4>nome: {{ colaboradores.nome }}</h4>
+    <h4>Salario: {{ colaboradores.salario }}</h4>
+    <h4>Cargo: {{ colaboradores.cargo }}</h4>
+
+    <div> <h3>Informações do cliente</h3>
+        <h4>Nome: {{ colaboradores.nome }}</h4>
+        <h4>Salario: {{ colaboradores.salario }}</h4>
+        <h4>Cargo: {{ colaboradores.cargo }}</h4></div>
+   </div>
+</div>
