@@ -1,19 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ColaboradoresComponent } from './components/colaboradores/colaboradores.component';
+import { ColaboradorComponent } from './components/colaborador/colaborador.component';
 
 
 
 @NgModule({
   declarations: [
-    ColaboradoresComponent
+    ColaboradoresComponent,
+    ColaboradorComponent
   ],
   exports:[
-     ColaboradoresComponent
+     ColaboradoresComponent,
+     ColaboradorComponent
     ],
 
   imports: [
     CommonModule,
+    
     
   ]
 })
